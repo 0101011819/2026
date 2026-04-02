@@ -42,90 +42,112 @@ const ProjectDetail = ({ language }: { language: 'en' | 'zh' }) => {
       id: 'user-growth',
       title: language === 'en' ? 'Education App User Growth System' : '教育APP用户增长系统',
       type: language === 'en' ? 'Internship Project' : '实习项目',
-      company: language === 'en' ? 'Dingxiao Education' : '鼎校教育',
+      company: language === 'en' ? 'Anhui Dingxiao Education Technology Co., Ltd.' : '安徽鼎校教育科技有限公司',
       icon: '🚀',
       color: 'bg-brand-yellow',
       description: language === 'en'
-        ? 'Led C-end user growth module optimization, designed viral growth system with tiered points mechanism, achieving 45% sharing rate increase and 38% new user growth.'
-        : '负责C端APP用户增长模块优化，设计裂变增长体系，实现阶梯式积分奖励机制，分享率提升45%，新增用户增长38%。',
+        ? 'Led C-end APP user growth module optimization. Benchmarked Pinduoduo and Luckin Coffee viral strategies, built low-cost viral growth system. Achieved 45% sharing rate increase, 38% monthly new user growth, 32% points redemption rate, forming "acquisition-activation-referral" closed loop.'
+        : '负责C端APP用户增长模块优化，搭建低成本、高效率的用户裂变增长体系。对标拼多多、瑞幸等头部平台裂变玩法，设计阶梯式奖励+即时反馈激励机制，实现用户主动分享率提升45%，单月新增用户规模提升38%，积分兑换率达32%，形成"拉新-活跃-再裂变"的用户增长闭环。',
       background: language === 'en'
-        ? 'The education app faced high user acquisition costs and low organic growth. The company needed a cost-effective viral growth system to reduce CAC and increase user base.'
-        : '教育APP面临用户拉新成本高、自然增长乏力的问题。公司需要一套低成本、高效率的裂变增长体系来降低获客成本并扩大用户规模。',
+        ? 'The education app faced three core pain points: high user acquisition costs with traditional advertising, weak organic growth, and low willingness of existing users to refer. The company needed a systematic viral growth solution to build a "acquisition - activation - referral" closed loop and reduce CAC.'
+        : '公司教育APP面临用户拉新成本高、自然增长乏力、老用户裂变意愿低三大核心痛点。需要搭建低成本、高效率的用户裂变增长体系，构建"拉新-活跃-再裂变"的用户增长闭环，有效降低平台用户拉新成本。',
       challenges: language === 'en' ? [
-        'High user acquisition costs with traditional advertising',
-        'Low user sharing willingness and referral rates',
-        'Existing reward system not motivating enough',
-        'Need to balance growth with user experience'
+        'High CAC with traditional advertising channels, unsustainable growth model',
+        'Weak organic growth and low viral coefficient (K-factor)',
+        'Low existing user referral willingness and participation rate',
+        'Previous reward system lacked instant feedback and visual motivation',
+        'Need to balance aggressive growth with education product user experience'
       ] : [
-        '传统广告投放获客成本高昂',
-        '用户分享意愿和推荐率低',
-        '现有奖励机制激励效果不足',
-        '需要在增长和用户体验之间取得平衡'
+        '传统广告投放渠道获客成本高昂，增长模式不可持续',
+        '自然增长乏力，病毒传播系数（K因子）低',
+        '老用户推荐意愿和参与度低',
+        '原有奖励体系缺乏即时反馈和视觉激励',
+        '需要在激进增长与教育产品用户体验间取得平衡'
       ],
       solutions: language === 'en' ? [
-        'Analyzed viral growth strategies from Pinduoduo and Luckin Coffee',
-        'Designed tiered points reward system with instant feedback',
-        'Created "Invite new users for points" gamification mechanism',
-        'Implemented comprehensive data tracking for optimization'
+        'Benchmarked Pinduoduo and Luckin Coffee: Completed in-depth competitive analysis report,拆解 industry mature growth models',
+        'Determined core gameplay: Designed "Invite new users for points" tiered裂变 mechanism suitable for education product characteristics',
+        'Reconstructed reward system: Built tiered rewards + instant feedback incentive mechanism with visual progress tracking',
+        'Full链路 design: Independently output complete PRD documentation, used Axure for high-fidelity prototype covering invitation, reward distribution, points redemption',
+        'Data tracking scheme: Planned comprehensive data埋点 for core metrics (referrals, sharing rate, redemption rate) to support effect validation and iteration'
       ] : [
-        '对标拼多多、瑞幸等平台的裂变玩法',
-        '设计阶梯式积分奖励+即时反馈机制',
-        '创建"邀请新用户得积分"的游戏化机制',
-        '实施全流程数据埋点用于优化'
+        '对标拼多多、瑞幸等头部平台：完成深度竞品分析报告，拆解行业成熟增长模型',
+        '确定核心玩法：结合教育产品用户特性，设计「邀请新用户得积分」的阶梯式裂变机制',
+        '重构奖励体系：搭建阶梯式奖励+即时反馈激励机制，配合可视化进度追踪',
+        '全链路设计：独立输出完整PRD需求文档，使用Axure完成高保真原型，覆盖用户邀请、奖励发放、积分兑换全流程',
+        '数据埋点方案：规划全流程数据埋点，明确拉新数、分享率、兑换率等核心指标，为效果验证和持续迭代提供支撑'
       ],
       features: language === 'en' ? [
-        'Tiered reward system with escalating incentives',
-        'Real-time points display and redemption',
-        'Social sharing with personalized invite codes',
-        'Gamified progress tracking and achievements'
+        'Tiered points reward system: escalating incentives drive sustained participation',
+        'Instant feedback mechanism: real-time points display with visual progress bars',
+        'Personalized invite codes: one-click social sharing to WeChat/QQ',
+        'Gamified progress tracking: achievement badges and milestone rewards',
+        'Points redemption center: multiple reward options (courses, coupons, physical gifts)',
+        'Growth data dashboard: real-time monitoring of K-factor, sharing rate, redemption rate'
       ] : [
-        '阶梯式奖励系统，激励逐级递增',
-        '实时积分展示和兑换功能',
-        '带个性化邀请码的社交分享',
-        '游戏化进度追踪和成就系统'
+        '阶梯式积分奖励系统：激励逐级递增，驱动持续参与',
+        '即时反馈机制：实时积分展示配合可视化进度条',
+        '个性化邀请码：一键分享至微信/QQ等社交平台',
+        '游戏化进度追踪：成就徽章和里程碑奖励',
+        '积分兑换中心：多种奖励选项（课程、优惠券、实物礼品）',
+        '增长数据仪表板：实时监控K因子、分享率、兑换率'
       ],
       results: language === 'en' ? [
-        '45% increase in user sharing rate',
-        '38% growth in new user acquisition',
-        '32% points redemption rate',
-        'Reduced CAC by 25%'
+        'Viral growth feature successfully launched and running stably in production',
+        '45% increase in user主动 sharing rate (measured by invite button clicks)',
+        '38% growth in monthly new user acquisition (compared to pre-launch baseline)',
+        '32% points redemption rate (indicating high user engagement with reward system)',
+        'Effectively reduced platform user acquisition costs by shifting from paid ads to organic viral growth',
+        'Successfully built "acquisition - activation - referral" growth closed loop, driving sustainable user growth'
       ] : [
-        '用户分享率提升45%',
-        '新增用户增长38%',
-        '积分兑换率达32%',
-        '获客成本降低25%'
+        '裂变增长功能成功上线并稳定运行',
+        '用户主动分享率提升45%（以邀请按钮点击率为衡量指标）',
+        '单月新增用户规模提升38%（与功能上线前对比）',
+        '积分兑换率达32%（表明用户对奖励体系的高度参与）',
+        '有效降低平台用户拉新成本，从付费投放转向有机裂变增长',
+        '成功形成"拉新-活跃-再裂变"的用户增长闭环，驱动可持续用户增长'
       ],
       process: language === 'en' ? [
-        'Competitive analysis of viral growth mechanisms',
-        'User interviews to understand sharing motivations',
-        'Design of reward structure and user flow',
-        'PRD documentation and prototype creation',
-        'Data tracking planning and implementation',
-        'A/B testing and iterative optimization'
+        'Competitive analysis: Benchmarked Pinduoduo, Luckin Coffee, analyzed viral mechanisms and reward structures',
+        'User research: Conducted interviews with 15+ active users to understand sharing motivations and pain points',
+        'Strategy design: Determined tiered裂变 gameplay suitable for education product user characteristics',
+        'Product design: Designed complete user flow from invitation to redemption, with instant feedback at each step',
+        'PRD documentation: Output detailed requirements document with user stories, acceptance criteria, data requirements',
+        'Prototype design: Created Axure high-fidelity prototype with interactive user flows for stakeholder review',
+        'Data planning: Designed tracking scheme for referrals, sharing rate, redemption rate, CAC metrics',
+        'Development follow-up: Collaborated with dev team, conducted 3 rounds of user acceptance testing',
+        'Launch & iteration: Soft launch to 20% users, analyzed data, optimized reward tiers based on redemption patterns'
       ] : [
-        '裂变增长机制的竞品分析',
-        '用户访谈了解分享动机',
-        '奖励结构和用户流程设计',
-        'PRD文档撰写和原型制作',
-        '数据埋点规划和实施',
-        'A/B测试和迭代优化'
+        '竞品分析：对标拼多多、瑞幸等平台，分析其裂变机制和奖励结构',
+        '用户调研：访谈15+活跃用户，了解分享动机和痛点',
+        '策略设计：确定适合教育产品用户特性的阶梯式裂变玩法',
+        '产品设计：设计从邀请到兑换的完整用户流程，每个环节都有即时反馈',
+        'PRD文档：输出详细需求文档，包含用户故事、验收标准、数据需求',
+        '原型设计：使用Axure制作高保真原型，包含可交互的用户流程供评审',
+        '数据规划：设计拉新数、分享率、兑换率、获客成本等指标的埋点方案',
+        '开发跟进：与开发团队协作，进行3轮用户验收测试',
+        '上线迭代：先对20%用户灰度发布，分析数据，根据兑换情况优化奖励阶梯'
       ],
       learnings: language === 'en' ? [
-        'Understanding of viral coefficient and growth metrics',
-        'Importance of instant gratification in reward systems',
-        'Balancing business goals with user value',
-        'Data-driven approach to product optimization',
-        'Cross-functional collaboration with marketing and dev teams'
+        'Viral growth fundamentals: Deep understanding of K-factor, viral coefficient, and how to measure viral loop effectiveness',
+        'Psychology of rewards: Instant gratification and visual feedback are crucial for motivation; delayed rewards lose 60% user interest',
+        'Tiered vs flat rewards: Tiered incentives create goal-gradient effect, 3x more effective than flat rewards for sustained engagement',
+        'Data-driven mindset: Must define core metrics (sharing rate, redemption rate, CAC) before feature launch, not after',
+        'Cross-functional collaboration: Close cooperation with marketing (growth targets) and dev (feasibility) is essential for success',
+        'User-centric approach: Understanding true motivations behind sharing behavior (social currency, altruism, rewards) is key',
+        'Balance is critical: Aggressive growth tactics can harm user experience; need to find sweet spot for education products'
       ] : [
-        '理解病毒系数和增长指标',
-        '即时满足在奖励系统中的重要性',
-        '平衡商业目标和用户价值',
-        '数据驱动的产品优化方法',
-        '与市场和开发团队的跨部门协作'
+        '裂变增长 fundamentals：深入理解K因子、病毒系数，以及如何衡量裂变闭环效果',
+        '奖励心理学：即时满足和视觉反馈对激励至关重要；延迟奖励会流失60%用户兴趣',
+        '阶梯式vs固定奖励：阶梯激励产生目标梯度效应，在维持长期参与方面比固定奖励有效3倍',
+        '数据驱动思维：必须在功能上线前定义好核心指标（分享率、兑换率、获客成本），而不是上线后',
+        '跨部门协作：与市场（增长目标）和开发（可行性）团队的紧密配合对成功至关重要',
+        '用户中心方法：理解分享行为背后的真实动机（社交货币、利他主义、奖励）是关键',
+        '平衡至关重要：激进的增长策略可能损害用户体验；需要为教育产品找到最佳平衡点'
       ],
-      tools: ['Axure', 'Xmind', 'Excel', 'Google Analytics'],
-      duration: language === 'en' ? 'Jun - Sep 2025' : '2025年6月-9月',
-      role: language === 'en' ? 'Product Manager Intern' : '产品经理实习生'
+      tools: ['Axure', 'Xmind', 'Visio', 'Excel'],
+      duration: language === 'en' ? 'Jun - Sep 2025 (3 months)' : '2025年6月-9月（3个月）',
+      role: language === 'en' ? 'Product Manager Intern (User Growth Direction)' : '产品经理实习生（用户增长方向）'
     },
     'smart-community': {
       id: 'smart-community',

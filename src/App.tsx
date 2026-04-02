@@ -400,8 +400,8 @@ const About = ({ language }: { language: 'en' | 'zh' }) => {
   const workTimeline = [
     {
       date: language === 'en' ? 'Jun - Sep 2025' : '2025年6月-9月',
-      title: language === 'en' ? 'PM Intern @ Dingxiao Education' : '鼎校教育 产品经理实习',
-      desc: language === 'en' ? 'Led user growth optimization, achieved 45% sharing rate increase and 38% new user growth' : '负责用户增长优化，实现分享率提升45%，新增用户增长38%',
+      title: language === 'en' ? 'PM Intern (User Growth) @ Anhui Dingxiao Education' : '安徽鼎校教育 产品经理实习（用户增长方向）',
+      desc: language === 'en' ? 'Built low-cost viral growth system. Achieved 45% sharing rate increase, 38% monthly new user growth, 32% points redemption rate' : '搭建低成本裂变增长体系。实现用户主动分享率提升45%，单月新增用户规模提升38%，积分兑换率达32%',
       icon: '🚀',
       color: 'bg-brand-yellow'
     },
@@ -454,10 +454,10 @@ const About = ({ language }: { language: 'en' | 'zh' }) => {
               {
                 id: 1,
                 color: 'bg-brand-yellow',
-                title: language === 'en' ? 'PM Intern - Dingxiao Education' : '产品经理实习生 - 鼎校教育',
+                title: language === 'en' ? 'PM Intern (User Growth) - Anhui Dingxiao Education Technology' : '产品经理实习生（用户增长方向）- 安徽鼎校教育科技有限公司',
                 desc: language === 'en'
-                  ? 'Led C-end user growth optimization, designed viral growth system with tiered points mechanism. Achieved 45% sharing rate increase, 38% new user growth, 32% points redemption rate.'
-                  : '负责C端APP用户增长模块优化，设计裂变增长体系。实现分享率提升45%，新增用户增长38%，积分兑换率达32%。',
+                  ? 'Benchmarked Pinduoduo and Luckin Coffee viral strategies. Built low-cost viral growth system with tiered rewards + instant feedback. Achieved 45% sharing rate increase, 38% monthly new user growth, 32% points redemption rate, forming "acquisition-activation-referral" closed loop.'
+                  : '对标拼多多、瑞幸等头部平台裂变玩法，搭建低成本、高效率的用户裂变增长体系。设计阶梯式奖励+即时反馈激励机制，实现用户主动分享率提升45%，单月新增用户规模提升38%，积分兑换率达32%，形成"拉新-活跃-再裂变"的用户增长闭环。',
                 date: language === 'en' ? 'Jun - Sep 2025' : '2025年6月-9月'
               },
               {

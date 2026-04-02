@@ -10,7 +10,7 @@ export const translations = {
     // Hero Section
     hello: 'Hello, I\'m Liang Shengnan!',
     heroTitle: 'Product Manager driving user growth & digital transformation',
-    heroSubtitle: "I have hands-on experience in C-end user growth and B-end digital product design. During my internship at Dingxiao Education, I achieved 45% increase in user sharing rate and 38% growth in new users. Passionate about building products that solve real problems.",
+    heroSubtitle: "I have hands-on experience in C-end user growth and B-end digital product design. During my internship at Anhui Dingxiao Education Technology Co., Ltd., I benchmarked viral strategies from Pinduoduo and Luckin Coffee, built a low-cost, high-efficiency viral growth system. Achieved 45% increase in user sharing rate, 38% growth in monthly new users, and 32% points redemption rate, forming an 'acquisition - activation - referral' growth closed loop. Passionate about building products that solve real problems.",
     seePortfolio: 'View My Projects',
     hireMe: 'Contact Me',
 
@@ -48,10 +48,10 @@ export const translations = {
     // About Section
     aboutMe: 'About Me',
     aboutDescription1: "I'm Liang Shengnan, a Product Management intern with proven experience in user growth and B-end product design. Currently pursuing my bachelor's degree in Digital Media Technology at Shanxi Datong University (Class of 2027).",
-    aboutDescription2: 'My internship at Dingxiao Education taught me how to design viral growth mechanisms that actually work. I achieved 45% increase in user sharing rate and 38% growth in new users through data-driven optimization. I also have experience in smart community and education management systems.',
+    aboutDescription2: 'During my internship at Anhui Dingxiao Education Technology Co., Ltd., I led C-end APP user growth module optimization. By benchmarking viral strategies from Pinduoduo and Luckin Coffee, I built a low-cost, high-efficiency viral growth system. Through tiered rewards + instant feedback incentive mechanism, I achieved 45% increase in user sharing rate, 38% growth in monthly new users, and 32% points redemption rate, forming an "acquisition - activation - referral" growth closed loop.',
     workExperience: 'Work Experience',
-    internGoogle: 'Product Manager Intern - Dingxiao Education',
-    internGoogleDesc: 'Led C-end user growth module optimization, designed viral growth system with 45% sharing rate increase and 38% new user growth',
+    internGoogle: 'Product Manager Intern (User Growth) - Anhui Dingxiao Education Technology Co., Ltd.',
+    internGoogleDesc: 'Led C-end APP user growth optimization, built low-cost viral growth system. Achieved 45% sharing rate increase, 38% monthly new user growth, 32% points redemption rate',
     srDesigner: 'Product Manager - Smart Community Payment System',
     srDesignerDesc: 'Designed property management backend + resident mini-program, reduced manual collection costs by 60%',
     softwareEngineer: 'Product Assistant - University Management System',
@@ -90,7 +90,7 @@ export const translations = {
     // Hero Section
     hello: '你好，我是梁胜男！',
     heroTitle: '产品经理，专注用户增长与数字化转型',
-    heroSubtitle: '拥有C端用户增长和B端数字化产品设计的实战经验。在鼎校教育实习期间，实现用户分享率提升45%，新增用户增长38%。热衷于打造解决真实问题的产品。',
+    heroSubtitle: '拥有C端用户增长和B端数字化产品设计的实战经验。在安徽鼎校教育科技有限公司实习期间，对标拼多多、瑞幸等头部平台裂变玩法，搭建低成本、高效率的用户裂变增长体系，实现用户主动分享率提升45%，单月新增用户规模提升38%，积分兑换率达32%，形成"拉新-活跃-再裂变"的用户增长闭环。热衷于打造解决真实问题的产品。',
     seePortfolio: '查看我的项目',
     hireMe: '联系我',
 
@@ -128,10 +128,10 @@ export const translations = {
     // About Section
     aboutMe: '关于我',
     aboutDescription1: '我是梁胜男，一名拥有实战经验的产品经理实习生，专注用户增长和B端产品设计。目前就读于山西大同大学数字媒体技术专业（2027届）。',
-    aboutDescription2: '在鼎校教育的实习经历教会了我如何设计真正有效的病毒式增长机制。通过数据驱动的优化，我实现了用户分享率提升45%，新增用户增长38%。我还拥有智慧社区和教育管理系统的项目经验。',
+    aboutDescription2: '在安徽鼎校教育科技有限公司的实习经历中，我负责C端APP用户增长模块优化，对标拼多多、瑞幸等头部平台裂变玩法，搭建低成本、高效率的用户裂变增长体系。通过设计阶梯式奖励+即时反馈激励机制，实现用户主动分享率提升45%，单月新增用户规模提升38%，积分兑换率达32%，形成"拉新-活跃-再裂变"的用户增长闭环。',
     workExperience: '工作经历',
-    internGoogle: '产品经理实习生 - 鼎校教育',
-    internGoogleDesc: '负责C端APP用户增长模块优化，设计裂变增长体系，实现分享率提升45%，新增用户增长38%',
+    internGoogle: '产品经理实习生（用户增长方向）- 安徽鼎校教育科技有限公司',
+    internGoogleDesc: '负责C端APP用户增长模块优化，搭建低成本裂变增长体系。实现用户主动分享率提升45%，单月新增用户规模提升38%，积分兑换率达32%',
     srDesigner: '产品经理 - 智慧社区物业缴费系统',
     srDesignerDesc: '设计物业管理后台+业主端小程序，降低人工催缴成本60%以上',
     softwareEngineer: '产品助理 - 高校学工管理系统',
